@@ -13,6 +13,10 @@
 		666B82A31D58732B001970BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 666B82A11D58732B001970BF /* Main.storyboard */; };
 		666B82A51D58732B001970BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 666B82A41D58732B001970BF /* Assets.xcassets */; };
 		666B82A81D58732B001970BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 666B82A61D58732B001970BF /* LaunchScreen.storyboard */; };
+		666B82B11D5876BF001970BF /* FontSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 666B82B01D5876BF001970BF /* FontSet.m */; };
+		66BF9BA11D5F2D6B009378F5 /* EJTextAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BF9BA01D5F2D6B009378F5 /* EJTextAttachment.m */; };
+		66FCCB7C1D59B40F001E7E1B /* ColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FCCB7B1D59B40F001E7E1B /* ColorView.m */; };
+		66FCCB7F1D59E92C001E7E1B /* TakePhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FCCB7E1D59E92C001E7E1B /* TakePhoto.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,14 @@
 		666B82A41D58732B001970BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		666B82A71D58732B001970BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		666B82A91D58732B001970BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		666B82AF1D5876BF001970BF /* FontSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontSet.h; sourceTree = "<group>"; };
+		666B82B01D5876BF001970BF /* FontSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontSet.m; sourceTree = "<group>"; };
+		66BF9B9F1D5F2D6B009378F5 /* EJTextAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EJTextAttachment.h; sourceTree = "<group>"; };
+		66BF9BA01D5F2D6B009378F5 /* EJTextAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EJTextAttachment.m; sourceTree = "<group>"; };
+		66FCCB7A1D59B40F001E7E1B /* ColorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorView.h; sourceTree = "<group>"; };
+		66FCCB7B1D59B40F001E7E1B /* ColorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorView.m; sourceTree = "<group>"; };
+		66FCCB7D1D59E92C001E7E1B /* TakePhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TakePhoto.h; sourceTree = "<group>"; };
+		66FCCB7E1D59E92C001E7E1B /* TakePhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TakePhoto.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,14 @@
 			children = (
 				666B829B1D58732B001970BF /* AppDelegate.h */,
 				666B829C1D58732B001970BF /* AppDelegate.m */,
+				666B82AF1D5876BF001970BF /* FontSet.h */,
+				666B82B01D5876BF001970BF /* FontSet.m */,
+				66FCCB7D1D59E92C001E7E1B /* TakePhoto.h */,
+				66FCCB7E1D59E92C001E7E1B /* TakePhoto.m */,
+				66FCCB7A1D59B40F001E7E1B /* ColorView.h */,
+				66FCCB7B1D59B40F001E7E1B /* ColorView.m */,
+				66BF9B9F1D5F2D6B009378F5 /* EJTextAttachment.h */,
+				66BF9BA01D5F2D6B009378F5 /* EJTextAttachment.m */,
 				666B829E1D58732B001970BF /* ViewController.h */,
 				666B829F1D58732B001970BF /* ViewController.m */,
 				666B82A11D58732B001970BF /* Main.storyboard */,
@@ -149,9 +169,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66FCCB7C1D59B40F001E7E1B /* ColorView.m in Sources */,
+				66BF9BA11D5F2D6B009378F5 /* EJTextAttachment.m in Sources */,
+				66FCCB7F1D59E92C001E7E1B /* TakePhoto.m in Sources */,
 				666B82A01D58732B001970BF /* ViewController.m in Sources */,
 				666B829D1D58732B001970BF /* AppDelegate.m in Sources */,
 				666B829A1D58732B001970BF /* main.m in Sources */,
+				666B82B11D5876BF001970BF /* FontSet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +290,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TextViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zl.TextViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -277,6 +302,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TextViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zl.TextViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -302,6 +328,7 @@
 				666B82AE1D58732B001970BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
