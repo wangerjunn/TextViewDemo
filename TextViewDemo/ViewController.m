@@ -159,7 +159,6 @@
         }case 102:
         {
             //颜色
-//            fontSet.color = [UIColor blackColor];
             if (isChange) {
                 if (btn.selected) {
                     NSArray *colorArr = @[@"黑",@"红色",@"绿色"];

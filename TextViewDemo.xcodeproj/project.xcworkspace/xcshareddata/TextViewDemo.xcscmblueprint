@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "CDE8581E3C6C6840011588B642BDCFF50FCD6FD3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "CDE8581E3C6C6840011588B642BDCFF50FCD6FD3" : 0,
+    "C539E3A89B305B30767C982434678892D65626D4" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C9B57175-4151-4A81-A640-7CF57A78ED80",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "CDE8581E3C6C6840011588B642BDCFF50FCD6FD3" : "TextViewDemo\/",
+    "C539E3A89B305B30767C982434678892D65626D4" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TextViewDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TextViewDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/wangerjunn\/RichTextViewDemo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C539E3A89B305B30767C982434678892D65626D4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/wangerjunn\/TextViewDemo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CDE8581E3C6C6840011588B642BDCFF50FCD6FD3"
+    }
+  ]
+}
